@@ -1,0 +1,15 @@
+class: info.magnolia.rest.delivery.jcr.v2.JcrDeliveryEndpointDefinition
+workspace: restaurant
+depth: 2
+nodeTypes:
+  - restaurant
+
+
+references:
+  - name: menuReference
+    propertyName: menu
+    referenceResolver:
+      $type: jcrReferenceResolver
+      targetWorkspace: menu
+      expand: true
+      generateLink: true

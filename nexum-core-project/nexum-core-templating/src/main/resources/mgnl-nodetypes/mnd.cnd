@@ -1,0 +1,7 @@
+<mt = 'http://www.magnolia.info/jcr/mt'>
+
+[mt:restaurant] > mgnl:restaurant
+ orderable
+
+[mt:menu] > mgnl:menu
+ orderable

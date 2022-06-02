@@ -1,0 +1,11 @@
+!content-type:menu
+name: menu
+icon: icon-stories-app
+
+# Optionally override any of the app configuration supplied by the content type.
+# subApps:
+#   detail:
+#     form:
+#       properties:
+#         title:
+#           rows: 5

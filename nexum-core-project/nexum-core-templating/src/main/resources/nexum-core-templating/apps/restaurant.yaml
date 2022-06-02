@@ -1,0 +1,16 @@
+!content-type:restaurant
+name: restaurant
+
+# Optionally override any of the app configuration supplied by the content type.
+permissions:
+  roles:
+    res-editor: res-editor
+
+subApps:
+   detail:
+     label: Restaurant 14
+     form:
+       properties:
+         title:
+           $type: richTextField
+           rows: 5

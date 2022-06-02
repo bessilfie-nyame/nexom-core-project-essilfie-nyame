@@ -1,0 +1,5 @@
+class: info.magnolia.rest.delivery.jcr.v2.JcrDeliveryEndpointDefinition
+workspace: menu
+depth: 2
+nodeTypes:
+  - menu
